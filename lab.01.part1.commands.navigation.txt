@@ -16,12 +16,41 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-Creative Cloud Files	Library			Public
-Desktop			Movies			Zotero
-Documents		Music
-Downloads		Pictures
-
-
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{82c947b9-4795-11ee-b81b-8b4f3dd722d7}.TxR.0.regtrans-ms
+ NTUSER.DAT{82c947b9-4795-11ee-b81b-8b4f3dd722d7}.TxR.1.regtrans-ms
+ NTUSER.DAT{82c947b9-4795-11ee-b81b-8b4f3dd722d7}.TxR.2.regtrans-ms
+ NTUSER.DAT{82c947b9-4795-11ee-b81b-8b4f3dd722d7}.TxR.blf
+ NTUSER.DAT{82c947ba-4795-11ee-b81b-8b4f3dd722d7}.TM.blf
+ NTUSER.DAT{82c947ba-4795-11ee-b81b-8b4f3dd722d7}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{82c947ba-4795-11ee-b81b-8b4f3dd722d7}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
 
 ==========
 2.  Type:
@@ -31,10 +60,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-total 0
-drwxr-xr-x   4 louisgoldford  staff   128 Jun 10 12:12 CU
-
-
+total 1
+lrwxrwxrwx 1 Matthew 197121  22 Aug 30 20:08 'My Music' -> /c/Users/Matthew/Music/
 
 ==========
 3.  Type:
@@ -43,12 +70,7 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-.				Finale.plugins
-..				Max 8
-
-
-
+ ./   ../  'My Music'@  'My Pictures'@  'My Videos'@   desktop.ini
 
 ==========
 4.  Type:
@@ -57,10 +79,7 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
-ls: doesnotexist: No such file or directory
-
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 ==========
 5.  What key do I press to go to the previous command?
