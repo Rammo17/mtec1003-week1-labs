@@ -223,7 +223,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-animals	foo	food
+animals/	foo/	food/
 
 ==========
 18. Type:
@@ -256,9 +256,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
+/c/Users/Matthew/mtec1003/foo/bar/baz/qux
 
 ==========
 21. Type:
@@ -269,9 +267,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
-
+/c/Users/Matthew/mtec1003
 
 ==========
 22. Type:
@@ -283,9 +279,9 @@ $ ls -l
 Copy and paste the first 3 lines from the output into the space below.
 ----------
 
-
-
-
+total 0
+drwxr-xr-x 1 Matthew 1049089 0 Sep  5 17:14 foo/
+drwxr-xr-x 1 Matthew 1049089 0 Sep  5 17:14 food/
 
 ==========
 23. Type:
@@ -296,9 +292,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
+/c/Users/Matthew
 
 ==========
 24. Type:
@@ -309,9 +303,8 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
+bash: cd: /Volumes: No such file or directory
+/c/Users/Matthew 
 
 ==========
 25. Type:
@@ -322,9 +315,8 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
+bash: cd: /unknown_folder: No such file or directory
+/c/Users/Matthew
 
 ==========
 26. Type:
@@ -335,9 +327,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
-
+/c/Users/Matthew/mtec1003
 
 ==========
 27. Type:
