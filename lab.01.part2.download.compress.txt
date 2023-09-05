@@ -74,8 +74,7 @@ $ echo hello there
 Copy and paste the output below.
 ----------
 
-
-
+hello there
 
 ==========
 2. Type:
@@ -85,7 +84,7 @@ $ echo whoa
 Copy and paste the output below.
 ----------
 
-
+whoa
 
 ==========
 3. Type:
@@ -95,7 +94,7 @@ $ echo good mornin'
 Copy and paste the output below.
 ----------
 
-
+good mornin'
 
 ==========
 4. Uh-oh... we're stuck!
@@ -113,7 +112,7 @@ $ echo "good mornin'"
 Copy and paste the output below.
 ----------
 
-
+good mornin'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.
